@@ -83,3 +83,21 @@ button {
   margin-right: 3em;
   cursor: pointer;
 }
+
+.margin-main-text {
+  margin-left: 5em;
+  margin-right: 2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.margin-main-img {
+  margin-left: 2em;
+  margin-right: 5em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.text-color {
+  color: var(--yellow);
+}
