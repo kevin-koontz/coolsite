@@ -1,0 +1,85 @@
+:root {
+  --dark: #061130;
+  --blue: #1c4bc4;
+  --light: #f4f6f8;
+  --yellow: #fafd61
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--light);
+  color: var(--light);
+  margin: unset;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background-color: var(--dark);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 1em;
+  background-color: var(--dark);
+}
+
+footer {
+  background-color: var(--light);
+  color: black;
+  justify-content: center;
+}
+
+button {
+  background-color: unset;
+  color: var(--light);
+  border: unset;
+  margin: .5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lower-btns {
+  color: var(--blue);
+  text-decoration: underline;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.nav-btn {
+  background-color: var(--blue);
+  border-radius: 5%;
+}
+
+.nav-btn-flex {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.lower-btns {
+  color: var(--blue);
+  text-decoration: underline;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+  cursor: pointer;
+}
